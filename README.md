@@ -17,7 +17,7 @@ behaviour of the function for each rule individually.
 
 To launch into execution `index.ts`, run while in the rootdir `npm run start`.
 The program will ask you for an upper limit; please make sure to insert a number
-and not gibberish, as the converter will not know how to handle it.
+and not gibberish, as the converter will prompt for correct input again.
 For each number from 1 to the upper limit, either the message is shown if
 it exists or the number itself.
 
