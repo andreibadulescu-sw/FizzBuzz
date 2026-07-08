@@ -15,13 +15,13 @@ behaviour of the function for each rule individually.
 
 ## Running this app
 
-To launch into execution `index.ts`, run while in the rootdir `node index.ts`.
+To launch into execution `index.ts`, run while in the rootdir `npm run start`.
 The program will ask you for an upper limit; please make sure to insert a number
 and not gibberish, as the converter will not know how to handle it.
 For each number from 1 to the upper limit, either the message is shown if
 it exists or the number itself.
 
-To enable / disable rules individually, run `node index.ts [Fizz] [Buzz] [Bong]
+To enable / disable rules individually, run `npm run start [Fizz] [Buzz] [Bong]
 [Bang] [Fezz] [Reverse]`. You can insert them in any order you want.
 
 ## Running the test suite
