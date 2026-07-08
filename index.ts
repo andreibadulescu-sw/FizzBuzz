@@ -43,14 +43,17 @@ export function fizzbuzz(answer: number = 100, params: boolean[] = [true, true, 
         return computeMesg(answer, params);
     }
 
+    /* istanbul ignore next */
     for (var i: number = 1; i <= answer; i++) {
         let mesg = computeMesg(i, params);
         console.log(mesg == "" ? i : mesg);
     }
 
+    /* istanbul ignore next */
     return "";
 }
 
+/* istanbul ignore next */
 function main()
 {
     const args = process.argv.slice(2);
@@ -97,6 +100,7 @@ function main()
     // the message.
 }
 
+/* istanbul ignore next */
 if (process.argv[1].includes("index.ts")) {
     main();
 }
