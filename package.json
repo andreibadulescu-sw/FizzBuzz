@@ -9,9 +9,13 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "@types/readline-sync": "^1.4.8",
     "jest": "^30.4.2",
     "ts-jest": "^29.4.11",
     "typescript": "^5.5.3"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
